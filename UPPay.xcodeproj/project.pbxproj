@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FDA15AB8E150BDD8C89E30D /* libPods-UPPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0152F2A2128CED0F7E9303C9 /* libPods-UPPay.a */; };
+		4A6283531D28B033003BE212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6283521D28B033003BE212 /* main.m */; };
+		4A6283561D28B033003BE212 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6283551D28B033003BE212 /* AppDelegate.m */; };
+		4A6283591D28B033003BE212 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A6283581D28B033003BE212 /* ViewController.mm */; };
+		4A62835C1D28B033003BE212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A62835A1D28B033003BE212 /* Main.storyboard */; };
+		4A62835E1D28B033003BE212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A62835D1D28B033003BE212 /* Assets.xcassets */; };
+		4A6283611D28B033003BE212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A62835F1D28B033003BE212 /* LaunchScreen.storyboard */; };
+		4A62836C1D28B033003BE212 /* UPPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A62836B1D28B033003BE212 /* UPPayTests.m */; };
+		4A6283771D28B033003BE212 /* UPPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6283761D28B033003BE212 /* UPPayUITests.m */; };
+		4A62838C1D28B14A003BE212 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A62838B1D28B14A003BE212 /* libPaymentControl.a */; };
+		4A6283921D28B2FA003BE212 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6283911D28B2FA003BE212 /* libz.tbd */; };
+		4A6283941D28B4DE003BE212 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6283931D28B4DE003BE212 /* CFNetwork.framework */; };
+		4A6283961D28B4ED003BE212 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6283951D28B4ED003BE212 /* SystemConfiguration.framework */; };
+		4A6283A51D290DF6003BE212 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6283991D290DF6003BE212 /* AFHTTPSessionManager.m */; };
+		4A6283A61D290DF6003BE212 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A62839C1D290DF6003BE212 /* AFNetworkReachabilityManager.m */; };
+		4A6283A71D290DF6003BE212 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A62839E1D290DF6003BE212 /* AFSecurityPolicy.m */; };
+		4A6283A81D290DF6003BE212 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6283A01D290DF6003BE212 /* AFURLRequestSerialization.m */; };
+		4A6283A91D290DF6003BE212 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6283A21D290DF6003BE212 /* AFURLResponseSerialization.m */; };
+		4A6283AA1D290DF6003BE212 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6283A41D290DF6003BE212 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A6283681D28B033003BE212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6283461D28B033003BE212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A62834D1D28B033003BE212;
+			remoteInfo = UPPay;
+		};
+		4A6283731D28B033003BE212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6283461D28B033003BE212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A62834D1D28B033003BE212;
+			remoteInfo = UPPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0152F2A2128CED0F7E9303C9 /* libPods-UPPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UPPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		408878D3EC0A29B2CFF8C2A5 /* Pods-UPPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-UPPay/Pods-UPPay.release.xcconfig"; sourceTree = "<group>"; };
+		4A62834E1D28B033003BE212 /* UPPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6283521D28B033003BE212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A6283541D28B033003BE212 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A6283551D28B033003BE212 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A6283571D28B033003BE212 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A6283581D28B033003BE212 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		4A62835B1D28B033003BE212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A62835D1D28B033003BE212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A6283601D28B033003BE212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A6283621D28B033003BE212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6283671D28B033003BE212 /* UPPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A62836B1D28B033003BE212 /* UPPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPPayTests.m; sourceTree = "<group>"; };
+		4A62836D1D28B033003BE212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6283721D28B033003BE212 /* UPPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6283761D28B033003BE212 /* UPPayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPPayUITests.m; sourceTree = "<group>"; };
+		4A6283781D28B033003BE212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6283891D28B14A003BE212 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		4A62838B1D28B14A003BE212 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		4A6283911D28B2FA003BE212 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4A6283931D28B4DE003BE212 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4A6283951D28B4ED003BE212 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4A6283981D290DF6003BE212 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4A6283991D290DF6003BE212 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		4A62839A1D290DF6003BE212 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4A62839B1D290DF6003BE212 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4A62839C1D290DF6003BE212 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4A62839D1D290DF6003BE212 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4A62839E1D290DF6003BE212 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4A62839F1D290DF6003BE212 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4A6283A01D290DF6003BE212 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4A6283A11D290DF6003BE212 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4A6283A21D290DF6003BE212 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4A6283A31D290DF6003BE212 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		4A6283A41D290DF6003BE212 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		4ACB6695DDF352E4350E8BB4 /* Pods-UPPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UPPay/Pods-UPPay.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A62834B1D28B033003BE212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6283961D28B4ED003BE212 /* SystemConfiguration.framework in Frameworks */,
+				4A6283941D28B4DE003BE212 /* CFNetwork.framework in Frameworks */,
+				4A6283921D28B2FA003BE212 /* libz.tbd in Frameworks */,
+				4A62838C1D28B14A003BE212 /* libPaymentControl.a in Frameworks */,
+				2FDA15AB8E150BDD8C89E30D /* libPods-UPPay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6283641D28B033003BE212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A62836F1D28B033003BE212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD66D90CFBE08CF687C515F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0152F2A2128CED0F7E9303C9 /* libPods-UPPay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A6283451D28B033003BE212 = {
+			isa = PBXGroup;
+			children = (
+				4A6283971D290DF6003BE212 /* AFNetworking */,
+				4A6283951D28B4ED003BE212 /* SystemConfiguration.framework */,
+				4A6283931D28B4DE003BE212 /* CFNetwork.framework */,
+				4A6283911D28B2FA003BE212 /* libz.tbd */,
+				4A6283871D28B14A003BE212 /* paymentcontrol */,
+				4A6283501D28B033003BE212 /* UPPay */,
+				4A62836A1D28B033003BE212 /* UPPayTests */,
+				4A6283751D28B033003BE212 /* UPPayUITests */,
+				4A62834F1D28B033003BE212 /* Products */,
+				5CC8DF7DCE690A0E62548A7A /* Pods */,
+				0DD66D90CFBE08CF687C515F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A62834F1D28B033003BE212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A62834E1D28B033003BE212 /* UPPay.app */,
+				4A6283671D28B033003BE212 /* UPPayTests.xctest */,
+				4A6283721D28B033003BE212 /* UPPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A6283501D28B033003BE212 /* UPPay */ = {
+			isa = PBXGroup;
+			children = (
+				4A6283541D28B033003BE212 /* AppDelegate.h */,
+				4A6283551D28B033003BE212 /* AppDelegate.m */,
+				4A6283571D28B033003BE212 /* ViewController.h */,
+				4A6283581D28B033003BE212 /* ViewController.mm */,
+				4A62835A1D28B033003BE212 /* Main.storyboard */,
+				4A62835D1D28B033003BE212 /* Assets.xcassets */,
+				4A62835F1D28B033003BE212 /* LaunchScreen.storyboard */,
+				4A6283621D28B033003BE212 /* Info.plist */,
+				4A6283511D28B033003BE212 /* Supporting Files */,
+			);
+			path = UPPay;
+			sourceTree = "<group>";
+		};
+		4A6283511D28B033003BE212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A6283521D28B033003BE212 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A62836A1D28B033003BE212 /* UPPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A62836B1D28B033003BE212 /* UPPayTests.m */,
+				4A62836D1D28B033003BE212 /* Info.plist */,
+			);
+			path = UPPayTests;
+			sourceTree = "<group>";
+		};
+		4A6283751D28B033003BE212 /* UPPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A6283761D28B033003BE212 /* UPPayUITests.m */,
+				4A6283781D28B033003BE212 /* Info.plist */,
+			);
+			path = UPPayUITests;
+			sourceTree = "<group>";
+		};
+		4A6283871D28B14A003BE212 /* paymentcontrol */ = {
+			isa = PBXGroup;
+			children = (
+				4A6283881D28B14A003BE212 /* inc */,
+				4A62838A1D28B14A003BE212 /* libs */,
+			);
+			path = paymentcontrol;
+			sourceTree = "<group>";
+		};
+		4A6283881D28B14A003BE212 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				4A6283891D28B14A003BE212 /* UPPaymentControl.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		4A62838A1D28B14A003BE212 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				4A62838B1D28B14A003BE212 /* libPaymentControl.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		4A6283971D290DF6003BE212 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4A6283981D290DF6003BE212 /* AFHTTPSessionManager.h */,
+				4A6283991D290DF6003BE212 /* AFHTTPSessionManager.m */,
+				4A62839A1D290DF6003BE212 /* AFNetworking.h */,
+				4A62839B1D290DF6003BE212 /* AFNetworkReachabilityManager.h */,
+				4A62839C1D290DF6003BE212 /* AFNetworkReachabilityManager.m */,
+				4A62839D1D290DF6003BE212 /* AFSecurityPolicy.h */,
+				4A62839E1D290DF6003BE212 /* AFSecurityPolicy.m */,
+				4A62839F1D290DF6003BE212 /* AFURLRequestSerialization.h */,
+				4A6283A01D290DF6003BE212 /* AFURLRequestSerialization.m */,
+				4A6283A11D290DF6003BE212 /* AFURLResponseSerialization.h */,
+				4A6283A21D290DF6003BE212 /* AFURLResponseSerialization.m */,
+				4A6283A31D290DF6003BE212 /* AFURLSessionManager.h */,
+				4A6283A41D290DF6003BE212 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		5CC8DF7DCE690A0E62548A7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB6695DDF352E4350E8BB4 /* Pods-UPPay.debug.xcconfig */,
+				408878D3EC0A29B2CFF8C2A5 /* Pods-UPPay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A62834D1D28B033003BE212 /* UPPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A62837B1D28B033003BE212 /* Build configuration list for PBXNativeTarget "UPPay" */;
+			buildPhases = (
+				C2B7D4D4327F9B2FEAD87647 /* [CP] Check Pods Manifest.lock */,
+				4A62834A1D28B033003BE212 /* Sources */,
+				4A62834B1D28B033003BE212 /* Frameworks */,
+				4A62834C1D28B033003BE212 /* Resources */,
+				711C4E5C310C5CEAB9CA0CFF /* [CP] Embed Pods Frameworks */,
+				5CB22406ADC0CA179293DFA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UPPay;
+			productName = UPPay;
+			productReference = 4A62834E1D28B033003BE212 /* UPPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A6283661D28B033003BE212 /* UPPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A62837E1D28B033003BE212 /* Build configuration list for PBXNativeTarget "UPPayTests" */;
+			buildPhases = (
+				4A6283631D28B033003BE212 /* Sources */,
+				4A6283641D28B033003BE212 /* Frameworks */,
+				4A6283651D28B033003BE212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6283691D28B033003BE212 /* PBXTargetDependency */,
+			);
+			name = UPPayTests;
+			productName = UPPayTests;
+			productReference = 4A6283671D28B033003BE212 /* UPPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A6283711D28B033003BE212 /* UPPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6283811D28B033003BE212 /* Build configuration list for PBXNativeTarget "UPPayUITests" */;
+			buildPhases = (
+				4A62836E1D28B033003BE212 /* Sources */,
+				4A62836F1D28B033003BE212 /* Frameworks */,
+				4A6283701D28B033003BE212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6283741D28B033003BE212 /* PBXTargetDependency */,
+			);
+			name = UPPayUITests;
+			productName = UPPayUITests;
+			productReference = 4A6283721D28B033003BE212 /* UPPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A6283461D28B033003BE212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kai Liu";
+				TargetAttributes = {
+					4A62834D1D28B033003BE212 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4A6283661D28B033003BE212 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A62834D1D28B033003BE212;
+					};
+					4A6283711D28B033003BE212 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A62834D1D28B033003BE212;
+					};
+				};
+			};
+			buildConfigurationList = 4A6283491D28B033003BE212 /* Build configuration list for PBXProject "UPPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A6283451D28B033003BE212;
+			productRefGroup = 4A62834F1D28B033003BE212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A62834D1D28B033003BE212 /* UPPay */,
+				4A6283661D28B033003BE212 /* UPPayTests */,
+				4A6283711D28B033003BE212 /* UPPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A62834C1D28B033003BE212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6283611D28B033003BE212 /* LaunchScreen.storyboard in Resources */,
+				4A62835E1D28B033003BE212 /* Assets.xcassets in Resources */,
+				4A62835C1D28B033003BE212 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6283651D28B033003BE212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6283701D28B033003BE212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CB22406ADC0CA179293DFA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UPPay/Pods-UPPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		711C4E5C310C5CEAB9CA0CFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UPPay/Pods-UPPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B7D4D4327F9B2FEAD87647 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A62834A1D28B033003BE212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6283AA1D290DF6003BE212 /* AFURLSessionManager.m in Sources */,
+				4A6283591D28B033003BE212 /* ViewController.mm in Sources */,
+				4A6283561D28B033003BE212 /* AppDelegate.m in Sources */,
+				4A6283A61D290DF6003BE212 /* AFNetworkReachabilityManager.m in Sources */,
+				4A6283531D28B033003BE212 /* main.m in Sources */,
+				4A6283A71D290DF6003BE212 /* AFSecurityPolicy.m in Sources */,
+				4A6283A81D290DF6003BE212 /* AFURLRequestSerialization.m in Sources */,
+				4A6283A91D290DF6003BE212 /* AFURLResponseSerialization.m in Sources */,
+				4A6283A51D290DF6003BE212 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6283631D28B033003BE212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A62836C1D28B033003BE212 /* UPPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A62836E1D28B033003BE212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6283771D28B033003BE212 /* UPPayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A6283691D28B033003BE212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A62834D1D28B033003BE212 /* UPPay */;
+			targetProxy = 4A6283681D28B033003BE212 /* PBXContainerItemProxy */;
+		};
+		4A6283741D28B033003BE212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A62834D1D28B033003BE212 /* UPPay */;
+			targetProxy = 4A6283731D28B033003BE212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A62835A1D28B033003BE212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A62835B1D28B033003BE212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A62835F1D28B033003BE212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A6283601D28B033003BE212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A6283791D28B033003BE212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A62837A1D28B033003BE212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A62837C1D28B033003BE212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACB6695DDF352E4350E8BB4 /* Pods-UPPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UPPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/paymentcontrol/libs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.UPPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A62837D1D28B033003BE212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408878D3EC0A29B2CFF8C2A5 /* Pods-UPPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UPPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/paymentcontrol/libs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.UPPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A62837F1D28B033003BE212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UPPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.UPPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPPay.app/UPPay";
+			};
+			name = Debug;
+		};
+		4A6283801D28B033003BE212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UPPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.UPPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPPay.app/UPPay";
+			};
+			name = Release;
+		};
+		4A6283821D28B033003BE212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UPPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.UPPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UPPay;
+			};
+			name = Debug;
+		};
+		4A6283831D28B033003BE212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UPPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.UPPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UPPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A6283491D28B033003BE212 /* Build configuration list for PBXProject "UPPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6283791D28B033003BE212 /* Debug */,
+				4A62837A1D28B033003BE212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A62837B1D28B033003BE212 /* Build configuration list for PBXNativeTarget "UPPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A62837C1D28B033003BE212 /* Debug */,
+				4A62837D1D28B033003BE212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A62837E1D28B033003BE212 /* Build configuration list for PBXNativeTarget "UPPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A62837F1D28B033003BE212 /* Debug */,
+				4A6283801D28B033003BE212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6283811D28B033003BE212 /* Build configuration list for PBXNativeTarget "UPPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6283821D28B033003BE212 /* Debug */,
+				4A6283831D28B033003BE212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A6283461D28B033003BE212 /* Project object */;
+}
